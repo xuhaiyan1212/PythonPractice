@@ -2,7 +2,7 @@ from DBHelper.SQLServerClass import SQLServerHelp
 
 SQL_CONN = ("Trusted_Connection=yes;"
             "DRIVER={SQL Server};"
-            "SERVER=DESKTOP-OIOAB85\SQLEXPRESS")
+            "SERVER=.\SQLEXPRESS")
 
 Query_Select_All = "SELECT * FROM MyPractise.dbo.Hackers"
 
